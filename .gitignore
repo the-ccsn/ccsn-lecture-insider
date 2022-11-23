@@ -10,3 +10,6 @@
 *.xdv
 *.log
 *.ttf
+*.nav
+*.snm
+*.toc
