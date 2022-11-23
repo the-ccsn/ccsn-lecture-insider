@@ -1,6 +1,14 @@
-\documentclass{beamer}
-\usetheme{metropolis}           % Use metropolis theme
-\title{A minimal example}
+% % \documentclass{beamer}
+% \documentclass[10pt,UTF8]{ctexbeamer} 
+% \usetheme{metropolis}    
+% \usepackage{ctexart}       % Use metropolis theme
+
+\documentclass[10pt,UTF8]{ctexbeamer} 
+%默认字体12pt，编码使用UTF8，使用中文
+
+\usetheme[progressbar=frametitle]{metropolis} 
+%使用metropolis这一beamer主题
+\title{Python}
 \date{\today}
 \author{Matthias Vogelgesang}
 \institute{Centre for Modern Beamer Themes}
@@ -8,8 +16,6 @@
   \maketitle
   \section{First Section}
   \begin{frame}{First Frame}
-    Python
-
 1. 环境安装：不会有人还没装环境吧不是吧不是吧
 1.1.  用pip整几个常用的package下来，顺便pypi是什么
 1.2.  import的用法（基本）
